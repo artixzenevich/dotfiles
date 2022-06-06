@@ -17,16 +17,7 @@ Theme - [Gruvbox Dark GTK4|3](https://www.gnome-look.org/p/1681313), Shell - [Gr
 
 ```shell
 git clone https://github.com/artixzenevich/dotfiles.git .dotfiles
-
-ln -s ~/.dotfiles/fish/config.fish ~/.config/fish/config.fish
-ln -s ~/.dotfiles/fish/conf.d/omf.fish ~/.config/fish/conf.d/omf.fish
-ln -s ~/.dotfiles/fish/conf.d/omf.fish ~/.config/fish/functions/fish_greeting.fish
-ln -s ~/.dotfiles/fish/conf.d/omf.fish ~/.config/fish/fish_variables
-
-ln -s ~/.dotfiles/nvim/init.vim ~/.config/nvim/init.vim
-
-ln -s ~/.dotfiles/zathura/zathurarc ~/.config/zathura/zathurarc
-
-ln -s ~/.dotfiles/rofi/config.rasi ~/.config/rofi/config.rasi
-ln -s ~/.dotfiles/rofi/gruvbox-common.rasi ~/.config/rofi/gruvbox-common.rasi
+cd .dotfiles/
+chmod +x install.sh
+./install.sh
 ```
