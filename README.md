@@ -9,8 +9,8 @@
 Theme - [Gruvbox Dark GTK4|3](https://www.gnome-look.org/p/1681313), Shell - [Gruvbox Gnome Shell](https://www.pling.com/p/1681451/). Icons - [Gruvbox Icons Theme](https://www.pling.com/p/1681460/).
 
 ## Telegram theme
-1.Upload the file to any Telegram chat.
-2.Open the file and apply theme.
+- 1.Upload the file to any Telegram chat.
+- 2.Open the file and apply theme.
 
 
 ## Install

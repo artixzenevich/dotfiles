@@ -1,14 +1,26 @@
 #!/bin/bash
+base=~/.config
+repo=~/.dotfiles
+ready=" - already exists"
+dirs=("fish" "kitty" "roffi" "nvim" "zathura")
 
-base = ~/.config
+if ! [ -d $base ]; then
+  mkdir $base
+else
+  echo $base $ready
+fi
 
-mkdir $base
-mkdir -p $base/fish/conf.d
-mkdir $base/fish/functions
-mkdir $base/kitty/
-mkdir $base/rofi
-mkdir $base/nvim
-mkdir $base/zathura
+for d in ${dirs[@]}
+do
+  if ! [ -d $base/$d ]; then
+    mkdir $base/$d
+  else
+    echo $d $ready
+  fi
+done
+
+mkdir $base/fish/conf.d
+mkdir $base/fish/function
 
 ln -s ~/.dotfiles/fish/config.fish ~/.config/fish/config.fish
 ln -s ~/.dotfiles/fish/conf.d/omf.fish ~/.config/fish/conf.d/omf.fish
