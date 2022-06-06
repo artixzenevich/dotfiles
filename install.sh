@@ -2,7 +2,7 @@
 base=~/.config
 repo=~/.dotfiles
 ready=" - already exists"
-dirs=("fish" "kitty" "roffi" "nvim" "zathura")
+dirs=("fish" "kitty" "rofi" "nvim" "zathura")
 
 if ! [ -d $base ]; then
   mkdir $base
@@ -20,7 +20,7 @@ do
 done
 
 mkdir $base/fish/conf.d
-mkdir $base/fish/function
+mkdir $base/fish/functions
 
 ln -s ~/.dotfiles/fish/config.fish ~/.config/fish/config.fish
 ln -s ~/.dotfiles/fish/conf.d/omf.fish ~/.config/fish/conf.d/omf.fish
