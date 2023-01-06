@@ -364,15 +364,15 @@ globalkeys = mytable.join(
         { description = "cycle with previous/go back", group = "client" }),
 
     -- Show/hide wibox
-    awful.key({ modkey }, "b", function()
-        for s in screen do
-            s.mywibox.visible = not s.mywibox.visible
-            if s.mybottomwibox then
-                s.mybottomwibox.visible = not s.mybottomwibox.visible
-            end
-        end
-    end,
-        { description = "toggle wibox", group = "awesome" }),
+    -- awful.key({ modkey }, "b", function()
+    --     for s in screen do
+    --         s.mywibox.visible = not s.mywibox.visible
+    --         if s.mybottomwibox then
+    --             s.mybottomwibox.visible = not s.mybottomwibox.visible
+    --         end
+    --     end
+    -- end,
+    --     { description = "toggle wibox", group = "awesome" }),
 
     -- On-the-fly useless gaps change
     awful.key({ altkey, "Control" }, "+", function() lain.util.useless_gaps_resize(1) end,
