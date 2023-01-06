@@ -1,5 +1,5 @@
 configuration {
-	display-drun: "";
+	display-drun: "run: ";
 	display-run: "";
 	display-window: "缾";
 	icon-theme: "Flatery";
