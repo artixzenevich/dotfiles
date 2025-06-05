@@ -1,0 +1,71 @@
+{
+  "editor.folding": false,
+  "workbench.colorTheme": "Kanagawa",
+  "workbench.iconTheme": "catppuccin-macchiato",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 20,
+  "extensions.ignoreRecommendations": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": false,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.detectIndentation": true,
+  "editor.formatOnSave": true,
+  "editor.glyphMargin": false,
+  "editor.scrollbar.vertical": "hidden",
+  "workbench.productIconTheme": "fluent-icons",
+  "window.density.editorTabHeight": "compact",
+  "workbench.sideBar.location": "right",
+  "workbench.layoutControl.enabled": false,
+
+  // Cursor
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+
+  // Font
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrainsMono Nerd Font, FiraCode Nerd Font",
+  "editor.inlayHints.fontFamily": "JetBrains Mono, Consolas, 'Courier New', FiraCode Nerd Font, monospace",
+
+  // Terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, FiraCode Nerd Font",
+
+  //Explorer
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+
+  //Breadcrumbs
+  "breadcrumbs.enabled": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.statusBar.visible": false,
+  // Custom styles and scripts
+  "vscode_custom_css.imports": ["file:///c:/vs-code-custom/custom-styles.css"],
+  "editor.stickyScroll.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+  "php.validate.executablePath": "C:/PHP/php-8.3/php.exe",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  }
+}
+
